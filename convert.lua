@@ -207,7 +207,8 @@ ESX.SavePlayer -> QBCore.Player.Save
 ESX.SavePlayers -> None (dont bother)
 ESX.Trace -> Use QBCore.Debug but dont bother converting this
 ESX.UseItem -> QBCore.Functions.UseItem 
-XPLAYER: xPlayer.removeWeaponComponent -> xPlayer.Functions.RemoveItem (component name)
+---- XPLAYER: -----
+xPlayer.removeWeaponComponent -> xPlayer.Functions.RemoveItem (component name)
 xPlayer.setAccountMoney -> xPlayer.Functions.SetMoney (account)
 xPlayer.setCoords -> None (used for teleporting)
 xPlayer.setInventoryItem -> xPlayer.Functions.AddItem (item name)
